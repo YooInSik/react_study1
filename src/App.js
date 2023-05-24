@@ -33,6 +33,7 @@ function App() {
           <div className="list">
           <h4>{title[2]}<span>👍</span>0 </h4>
           <p>ㅇ월 ㅇ일 발행 </p> </div>
+          <p>testing</p>
     </div>
   );
 } 
