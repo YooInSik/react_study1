@@ -2,6 +2,8 @@
 
 import './App.css';
 import React, { useState } from 'react';
+import LogIn from './LogIn/LogIn'
+import SignInModal from './Component/SignInModal'
 
 function App() {
 
@@ -20,19 +22,13 @@ function App() {
 
   return (
     <div className="App">
-      <div className="black-nav">
-        <h4>React Blog</h4>
-        </div>
-        <div className="list">
-          <button onClick={sortTitle}>Sort Title</button>
-          <h4>{title[0]}<span onClick={uplike}>👍</span>{like}</h4>
-          <p>ㅇ월 ㅇ일 발행 </p> </div>
-          <div className="list">
-          <h4>{title[1]}<span>👍</span>0</h4>
-          <p>ㅇ월 ㅇ일 발행 </p> </div>
-          <div className="list">
-          <h4>{title[2]}<span>👍</span>0 </h4>
-          <p>ㅇ월 ㅇ일 발행 </p> </div>
+          <LogIn></LogIn>
+    <div>
+      <h1>여기 밑에 테스트 코드를 작성해보자.aaaaa</h1>
+      <div>
+        
+      </div>
+    </div>
     </div>
   );
 } 
